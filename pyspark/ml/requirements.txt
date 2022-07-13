@@ -1,0 +1,8 @@
+pip install numpy==1.17.3
+pip install pandas==1.2.5
+pip install psycopg2-binary==2.8.6
+
+pip install pybind11
+pip install --upgrade pip
+pip install pmdarima==1.8.0
+pip install scikit-learn==0.24.2

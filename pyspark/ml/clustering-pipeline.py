@@ -43,7 +43,7 @@ from pyspark.sql.functions import udf
 def apps_lookup(arr):
     lookup_arr = [...]
     return_val = []
-    for key,val in enumerate(arr):
+Main.scala   for key,val in enumerate(arr):
         if val > 0:
             return_val.append(lookup_arr[key])
     return return_val
