@@ -1,0 +1,23 @@
+1. need python >=3.6
+
+2. pip install pynput
+
+3. run python KeyLoggerPynput.py
+
+It will create json files under "files" directory under current path every 10 mins.
+
+Sample output 
+
+{"Key.enter": 22, "'f'": 16, "'s'": 19, "'d'": 11, "'c'": 1, "'z'": 1, "'l'": 14, "';'": 4, "'k'": 11, "'/'": 1, "'m'": 2, "'g'": 4, "'n'": 3, "'i'": 1, "'j'": 14, "'3'": 4, "'p'": 1, "'8'": 1, "'9'": 2, "'2'": 3, "'4'": 1, "<103>": 1, "<104>": 3, "<99>": 1, "<101>": 1, "<98>": 1, "'+'": 3, "'-'": 2, "'h'": 1}
+
+
+
+Agent also support verbose mode to debug key strokes. With verbose mode on, it print every pressed key on console. This is only for testing purpose. Please use this option carefully !!!
+
+Below command is turn on verbose mode
+
+python KeyLoggerPynput.py verbose
+
+
+Note :- agent gets exited whenever esc key is pressed. This is kept intentionally to graceful terminatation.
+It is highly recommended to verify if agent is running.
